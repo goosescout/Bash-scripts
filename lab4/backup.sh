@@ -15,45 +15,45 @@ function init_dir {
 }
 
 function copy_files {
-    for filename in $(ls ~/source/); do
-        cp -r ~/source/$filename $BACKUP_DIR &&
+    while read filename; do
+        cp -r ~/source/"$filename" "$BACKUP_DIR" &&
         echo "copied $filename to $BACKUP_DIR" >> ~/backup-report
-    done  
+    done < <(ls ~/source/)
 }
 
 function update_files {
-    for filename in $(ls ~/$1); do
-        source_path=$1$filename
-        source_abs_path=~/$1$filename
-        if [[ -d $source_abs_path ]]; then
-            update_files $source_path/
+    while read filename; do
+        source_path="$1$filename"
+        source_abs_path=~/"$1$filename"
+        if [[ -d "$source_abs_path" ]]; then
+            update_files "$source_path/"
         else
-            backup_abs_path=$BACKUP_DIR/${1:7}$filename
-            if [[ -e $backup_abs_path && $(stat $source_abs_path -c %s) -ne $(stat $backup_abs_path -c %s) ]]; then
-                if [[ -e $backup_abs_path.$CURRENT_DATE ]]; then
+            backup_abs_path="$BACKUP_DIR/${1:7}$filename"
+            if [[ -e "$backup_abs_path" && $(stat "$source_abs_path" -c %s) -ne $(stat "$backup_abs_path" -c %s) ]]; then
+                if [[ -e "$backup_abs_path.$CURRENT_DATE" ]]; then
                     counter=1
-                    while [[ -e $backup_abs_path.$CURRENT_DATE"_"$counter ]]; do
+                    while [[ -e "$backup_abs_path.$CURRENT_DATE"_"$counter" ]]; do
                         ((counter++))
                     done
-                    mv $backup_abs_path $backup_abs_path.$CURRENT_DATE"_"$counter && {
+                    mv "$backup_abs_path" "$backup_abs_path.$CURRENT_DATE"_"$counter" && {
                         echo "renamed $backup_abs_path to $backup_abs_path.$CURRENT_DATE"_"$counter" >> ~/backup-report
-                        cp $source_abs_path $BACKUP_DIR/${1:7} &&
+                        cp "$source_abs_path" "$BACKUP_DIR/${1:7}" &&
                         echo "copied already existed file $source_abs_path to $BACKUP_DIR" >> ~/backup-report
                     }
                 else
-                    mv $backup_abs_path $backup_abs_path.$CURRENT_DATE && {
+                    mv "$backup_abs_path" "$backup_abs_path.$CURRENT_DATE" && {
                         echo "renamed $backup_abs_path to $backup_abs_path.$CURRENT_DATE" >> ~/backup-report
-                        cp $source_abs_path $BACKUP_DIR/${1:7} &&
+                        cp "$source_abs_path" "$BACKUP_DIR/${1:7}" &&
                         echo "copied already existed file $source_abs_path to $BACKUP_DIR" >> ~/backup-report
                     }
                 fi                    
-            elif [[ ! -e $backup_abs_path ]]; then
-                mkdir -p $BACKUP_DIR/${1:7} &&
-                cp $source_abs_path $BACKUP_DIR/${1:7} &&
+            elif [[ ! -e "$backup_abs_path" ]]; then
+                mkdir -p "$BACKUP_DIR/${1:7}" &&
+                cp "$source_abs_path" "$BACKUP_DIR/${1:7}" &&
                 echo "copied $source_abs_path to $BACKUP_DIR" >> ~/backup-report
             fi
         fi
-    done
+    done < <(ls ~/"$1")
 }
 
 if [[ $DEBUG == "true" ]]; then
