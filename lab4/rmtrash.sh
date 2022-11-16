@@ -25,6 +25,12 @@ while [[ -e ~/.trash/$counter ]]; do
     ((counter++))
 done
 
-ln $1 ~/.trash/$counter &&
-rm $1 &&
-echo "$(realpath $1) $counter" >> ~/.trash.log
+ln -- "$1" ~/.trash/$counter && {
+    rm -- "$1" && {
+        echo $counter $(realpath -- "$1") >> ~/.trash.log
+    } || {
+        echoerr "Unable to remove file"
+    }
+} || {
+    echoerr "Unable to create link"
+}
