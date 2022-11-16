@@ -1,0 +1,10 @@
+Sep 18 01:02:36 pop-os system76-power[717]: [INFO] DBUS Received GetSwitchable() method
+Sep 18 01:02:36 pop-os system76-power[717]: [INFO] DBUS Received GetProfile() method
+Sep 18 01:27:04 pop-os system76-power[717]: [INFO] DBUS Received GetSwitchable() method
+Sep 18 01:27:04 pop-os system76-power[717]: [INFO] DBUS Received GetProfile() method
+Sep 18 17:44:25 pop-os system76-power[717]: [INFO] DBUS Received GetSwitchable() method
+Sep 18 17:44:25 pop-os system76-power[717]: [INFO] DBUS Received GetProfile() method
+Sep 18 20:34:57 pop-os system76-power[717]: [INFO] DBUS Received GetSwitchable() method
+Sep 18 20:34:57 pop-os system76-power[717]: [INFO] DBUS Received GetProfile() method
+Sep 18 22:08:08 pop-os system76-power[717]: [INFO] DBUS Received GetSwitchable() method
+Sep 18 22:08:08 pop-os system76-power[717]: [INFO] DBUS Received GetProfile() method

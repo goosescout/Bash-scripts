@@ -1,0 +1,25 @@
+Sep 20 10:25:35 pop-os system76-power[701]: Warning: Failed to set automatic graphics power: does not have switchable graphics
+Sep 20 10:25:35 pop-os system76-power[701]: Warning: Failed to set initial profile: Errors found when setting profile:
+Sep 18 01:02:36 pop-os system76-power[717]: Information: DBUS Received GetSwitchable() method
+Sep 18 01:02:36 pop-os system76-power[717]: Information: DBUS Received GetProfile() method
+Sep 18 01:27:04 pop-os system76-power[717]: Information: DBUS Received GetSwitchable() method
+Sep 18 01:27:04 pop-os system76-power[717]: Information: DBUS Received GetProfile() method
+Sep 18 17:44:25 pop-os system76-power[717]: Information: DBUS Received GetSwitchable() method
+Sep 18 17:44:25 pop-os system76-power[717]: Information: DBUS Received GetProfile() method
+Sep 18 20:34:57 pop-os system76-power[717]: Information: DBUS Received GetSwitchable() method
+Sep 18 20:34:57 pop-os system76-power[717]: Information: DBUS Received GetProfile() method
+Sep 18 22:08:08 pop-os system76-power[717]: Information: DBUS Received GetSwitchable() method
+Sep 18 22:08:08 pop-os system76-power[717]: Information: DBUS Received GetProfile() method
+Sep 20 10:25:34 pop-os system76-power[701]: Information: Starting daemon
+Sep 20 10:25:34 pop-os system76-power[701]: Information: Connecting to dbus system bus
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Rescanning PCI bus
+Sep 20 10:25:35 pop-os system76-power[701]: Information: 0000:00:02.0: Other(15AD) graphics
+Sep 20 10:25:35 pop-os system76-power[701]: Information: 0000:00:02.0: Function for 0000:00:02.0
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Disabling NMI Watchdog (for kernel debugging only)
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Setting automatic graphics power
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Initializing with the balanced profile
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Registering dbus name com.system76.PowerDaemon
+Sep 20 10:25:35 pop-os system76-power[701]: Information: Adding dbus path /com/system76/PowerDaemon with interface com.system76.PowerDaemon
+Sep 20 10:25:42 pop-os system76-power[701]: Information: Handling dbus requests
+Sep 20 10:27:06 pop-os system76-power[701]: Information: DBUS Received GetSwitchable() method
+Sep 20 10:27:06 pop-os system76-power[701]: Information: DBUS Received GetProfile() method
