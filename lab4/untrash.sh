@@ -5,17 +5,19 @@ function echoerr {
 }
 
 function restore {
-    ln -- ~/.trash/$2 "$1" && {
-        rm -- ~/.trash/$2 && {
-            sed -i "/$2 /d" ~/.trash.log
-            echo "Successfully restored $1"
+    if [[ ! -e "$1" ]]; then
+        ln -- ~/.trash/$2 "$1" && {
+            rm -- ~/.trash/$2 && {
+                sed -i "/$2 /d" ~/.trash.log
+                echo "Successfully restored $1"
+            }
         }
-    } || {
+    else 
         printf "Choose another name for the file to avoid conflict: "
         read new_filename < /dev/tty
         new_path=$(dirname -z -- "$1")/"$new_filename"
         restore "$new_path" $2
-    }
+    fi
 }
 
 if [[ $# -ne 1 ]]; then
