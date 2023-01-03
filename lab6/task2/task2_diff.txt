@@ -1,0 +1,1 @@
+Comparing files C:\WINDOWS\explorer.exe and H:\EXPLORER.EXE

@@ -1,0 +1,284 @@
+xinputhid    XINPUT HID Filter Driv Kernel                              
+xboxgip      Xbox Game Input Protoc Kernel                              
+WUDFRd       Windows Driver Foundat Kernel                              
+WudfPf       User Mode Driver Frame Kernel                              
+wtd          wtd                    Kernel                              
+ws2ifsl      Winsock IFS Driver     Kernel                              
+WpdUpFltr    WPD Upper Class Filter Kernel                              
+Wof          Windows Overlay File S File System                         
+WmiAcpi      Microsoft Windows Mana Kernel                              
+WINUSB       WinUsb Driver          Kernel                              
+WinNat       Windows NAT Driver     Kernel                              
+WindowsTrust Windows Trusted Execut Kernel                              
+WindowsTrust Microsoft Windows Trus Kernel                              
+WIMMount     WIMMount               File System                         
+WifiCx       Wifi Network Adapter C Kernel                              
+WFPLWFS      Microsoft Windows Filt Kernel                              
+WdNisDrv     Microsoft Defender Ant Kernel                              
+WdmCompanion WdmCompanionFilter     Kernel                              
+wdiwifi      WDI Driver Framework   Kernel                              
+WdFilter     Microsoft Defender Ant File System                         
+Wdf01000     Kernel Mode Driver Fra Kernel                              
+WdBoot       Microsoft Defender Ant Kernel                              
+wcifs        Windows Container Isol File System                         
+wanarpv6     Remote Access IPv6 ARP Kernel                              
+wanarp       Remote Access IP ARP D Kernel                              
+vwififlt     Virtual WiFi Filter Dr Kernel                              
+vwifibus     Virtual Wireless Bus D Kernel                              
+vpci         Microsoft Hyper-V Virt Kernel                              
+volume       Volume driver          Kernel                              
+volsnap      Volume Shadow Copy dri Kernel                              
+volmgrx      Dynamic Volume Manager Kernel                              
+volmgr       Volume Manager Driver  Kernel                              
+vmgid        Microsoft Hyper-V Gues Kernel                              
+VMBusHID     VMBusHID               Kernel                              
+vmbus        Virtual Machine Bus    Kernel                              
+VirtualRende VirtualRender          Kernel                              
+Vid          Vid                    Kernel                              
+vhf          Virtual HID Framework  Kernel                              
+vhdmp        vhdmp                  Kernel                              
+VerifierExt  Driver Verifier Extens Kernel                              
+vdrvroot     Microsoft Virtual Driv Kernel                              
+USBXHCI      USB xHCI Compliant Hos Kernel                              
+usbvideo     USB Video Device (WDM) Kernel                              
+USBSTOR      USB Mass Storage Drive Kernel                              
+usbser       Microsoft USB Serial D Kernel                              
+usbprint     Microsoft USB PRINTER  Kernel                              
+USBHUB3      SuperSpeed Hub         Kernel                              
+usbhub       Microsoft USB Standard Kernel                              
+usbehci      Microsoft USB 2.0 Enha Kernel                              
+usbccgp      Microsoft USB Generic  Kernel                              
+usbaudio2    USB Audio 2.0 Service  Kernel                              
+usbaudio     USB Audio Driver (WDM) Kernel                              
+Usb4HostRout USB4 Host Router Servi Kernel                              
+Usb4DeviceRo USB4 Device Router Ser Kernel                              
+UrsSynopsys  Synopsys USB Role-Swit Kernel                              
+UrsCx01000   USB Role-Switch Suppor Kernel                              
+UrsChipidea  Chipidea USB Role-Swit Kernel                              
+UmPass       Microsoft UMPass Drive Kernel                              
+umbus        UMBus Enumerator Drive Kernel                              
+ufxsynopsys  USB Synopsys Controlle Kernel                              
+UfxChipidea  USB Chipidea Controlle Kernel                              
+Ufx01000     USB Function Class Ext Kernel                              
+UEFI         Microsoft UEFI Driver  Kernel                              
+udfs         udfs                   File System                         
+UdeCx        USB Device Emulation S Kernel                              
+Ucx01000     USB Host Support Libra Kernel                              
+UcmUcsiCx010 UCM-UCSI KMDF Class Ex Kernel                              
+UcmUcsiAcpiC UCM-UCSI ACPI Client   Kernel                              
+UcmTcpciCx01 UCM-TCPCI KMDF Class E Kernel                              
+UcmCx0101    USB Connector Manager  Kernel                              
+UASPStor     USB Attached SCSI (UAS Kernel                              
+tunnel       Microsoft Tunnel Minip Kernel                              
+TsUsbGD      Remote Desktop Generic Kernel                              
+TsUsbFlt     Remote Desktop USB Hub Kernel                              
+TPM          TPM                    Kernel                              
+terminpt     Microsoft Remote Deskt Kernel                              
+tdx          NetIO Legacy TDI Suppo Kernel                              
+tcpipreg     @%SystemRoot%\System32 Kernel                              
+Tcpip6       @todo.dll,-100;Microso Kernel                              
+Tcpip        TCP/IP Protocol Driver Kernel                              
+swenum       Software Bus Driver    Kernel                              
+storvsc      storvsc                Kernel                              
+storufs      Microsoft Universal Fl Kernel                              
+storqosflt   Storage QoS Filter Dri File System                         
+stornvme     Microsoft Standard NVM Kernel                              
+storahci     Microsoft Standard SAT Kernel                              
+srvnet       srvnet                 File System                         
+srv2         Server SMB 2.xxx Drive File System                         
+SpbCx        Simple Peripheral Bus  Kernel                              
+spaceport    Storage Spaces Driver  Kernel                              
+spaceparser  spaceparser            Kernel                              
+SerPL011     ARM PL011 UART Device  Kernel                              
+SerCx2       Serial UART Support Li Kernel                              
+SerCx        Serial UART Support Li Kernel                              
+sdstor       SD Storage Port Driver Kernel                              
+sdbus        sdbus                  Kernel                              
+scmbus       Microsoft Storage Clas Kernel                              
+scfilter     Smart card PnP Class F Kernel                              
+rspndr       Link-Layer Topology Di Kernel                              
+RoutePolicy  Microsoft Route Policy Kernel                              
+rhproxy      Resource Hub proxy dri Kernel                              
+RFCOMM       Bluetooth Device (RFCO Kernel                              
+ReFS         ReFS                   File System                         
+rdyboost     ReadyBoost             Kernel                              
+RdpVideoMini Remote Desktop Video M Kernel                              
+RDPDR        Remote Desktop Device  Kernel                              
+rdpbus       Remote Desktop Device  Kernel                              
+rdbss        Redirected Buffering S File System                         
+RasSstp      WAN Miniport (SSTP)    Kernel                              
+RasPppoe     Remote Access PPPOE Dr Kernel                              
+Rasl2tp      WAN Miniport (L2TP)    Kernel                              
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel                              
+RasAcd       Remote Access Auto Con Kernel                              
+Ramdisk      Windows RAM Disk Drive Kernel                              
+radarm       RAS Architecture Drive Kernel                              
+QWAVEdrv     QWAVE driver           Kernel                              
+Psched       QoS Packet Scheduler   Kernel                              
+PRM          Microsoft PRM Driver   Kernel                              
+prl_tg       Parallels Tool Device  Kernel        10/26/2022 10:16:43 PM
+prl_strg     Parallels paravirt dis Kernel        10/26/2022 10:22:52 PM
+prl_mouf     Parallels Mouse Synchr Kernel        10/26/2022 10:16:56 PM
+prl_memdev   prl_memdev             Kernel        10/26/2022 10:16:25 PM
+prl_fs       Parallels Shared Folde File System   10/26/2022 10:21:31 PM
+prl_dearm    prl_dearm              File System   10/26/2022 10:25:13 PM
+prl_dd       Parallels Display Adap Kernel        10/26/2022 10:19:26 PM
+PptpMiniport WAN Miniport (PPTP)    Kernel                              
+portcfg      portcfg                Kernel                              
+pmem         Microsoft persistent m Kernel                              
+pl061gpio    Microsoft PL061 GPIO C Kernel                              
+pl050prt     PL050 Keyboard and Mou Kernel                              
+PktMon       Packet Monitor Driver  Kernel                              
+PEAUTH       PEAUTH                 Kernel                              
+pdc          pdc                    Kernel                              
+pcw          Performance Counters f Kernel                              
+pciide       pciide                 Kernel                              
+pci          PCI Bus Driver         Kernel                              
+partmgr      Partition driver       Kernel                              
+P9Rdr        Plan 9 Redirector Driv Kernel                              
+nvmedisk     Microsoft NVMe disk dr Kernel                              
+nvdimm       Microsoft NVDIMM devic Kernel                              
+Null         Null                   Kernel                              
+Ntfs         Ntfs                   File System                         
+nsiproxy     NSI Proxy Service Driv Kernel                              
+npsvctrig    Named pipe service tri Kernel                              
+Npfs         Npfs                   File System                         
+netvsc       netvsc                 Kernel                              
+netkvm       Parallels VirtIO Ether Kernel        10/26/2022 10:25:03 PM
+NetBT        NetBT                  Kernel                              
+NetBIOS      NetBIOS Interface      File System                         
+NetAdapterCx Network Adapter Wdf Cl Kernel                              
+Ndu          Windows Network Data U Kernel                              
+ndproxy      NDIS Proxy Driver      Kernel                              
+ndiswanlegac Remote Access LEGACY N Kernel                              
+NdisWan      Remote Access NDIS WAN Kernel                              
+NdisVirtualB Microsoft Virtual Netw Kernel                              
+Ndisuio      NDIS Usermode I/O Prot Kernel                              
+NdisImPlatfo Microsoft Network Adap Kernel                              
+NdisCap      Microsoft NDIS Capture Kernel                              
+NDIS         NDIS System Driver     Kernel                              
+NativeWifiP  NativeWiFi Filter      Kernel                              
+Mup          Mup                    File System                         
+MTConfig     Microsoft Input Config Kernel                              
+MSTEE        Microsoft Streaming Te Kernel                              
+mssmbios     Microsoft System Manag Kernel                              
+MsRPC        MsRPC                  Kernel                              
+MsQuic       MsQuic                 Kernel        3/31/2022 7:05:50 PM  
+MSPQM        Microsoft Streaming Qu Kernel                              
+MSPCLOCK     Microsoft Streaming Cl Kernel                              
+MsLldp       Microsoft Link-Layer D Kernel                              
+MSKSSRV      Microsoft Streaming Se Kernel                              
+mshidumdf    Pass-through HID to UM Kernel                              
+mshidkmdf    Pass-through HID to KM Kernel                              
+msgpiowin32  Common Driver for Butt Kernel                              
+Msfs         Msfs                   File System                         
+MsBridge     Microsoft MAC Bridge   Kernel                              
+mrxsmb20     SMB 2.0 MiniRedirector File System                         
+mrxsmb       SMB MiniRedirector Wra File System                         
+MRxDAV       WebDav Client Redirect File System                         
+mpsdrv       Windows Defender Firew Kernel                              
+mountmgr     Mount Point Manager    Kernel                              
+mouhid       Mouse HID Driver       Kernel                              
+mouclass     Mouse Class Driver     Kernel                              
+monitor      Microsoft Monitor Clas Kernel                              
+Module Name  Display Name           Driver Type   Link Date             
+Modem        Modem                  Kernel                              
+MMCSS        Multimedia Class Sched Kernel                              
+Microsoft_Bl Microsoft Bluetooth Av Kernel                              
+MbbCx        MBB Network Adapter Cl Kernel                              
+mausbip      MA-USB IP Filter Drive Kernel                              
+mausbhost    MA-USB Host Controller Kernel                              
+luafv        UAC File Virtualizatio File System                         
+lltdio       Link-Layer Topology Di Kernel                              
+ksthunk      Kernel Streaming Thunk Kernel                              
+KSecPkg      KSecPkg                Kernel                              
+KSecDD       KSecDD                 Kernel                              
+kdnic        Microsoft Kernel Debug Kernel                              
+kbdhid       Keyboard HID Driver    Kernel                              
+kbdclass     Keyboard Class Driver  Kernel                              
+IPNAT        IP Network Address Tra Kernel                              
+IPMIDRV      IPMIDRV                Kernel                              
+iorate       Disk I/O Rate Filter D Kernel                              
+intelide     intelide               Kernel                              
+IndirectKmd  Indirect Displays Kern Kernel                              
+HyperVideo   HyperVideo             Kernel                              
+hyperkbd     hyperkbd               Kernel                              
+HwNClx0101   Microsoft Hardware Not Kernel                              
+hvservice    Microsoft Hypervisor S Kernel                              
+hvcrash      hvcrash                Kernel                              
+HTTP         HTTP Service           Kernel                              
+HidUsb       Microsoft HID Class Dr Kernel                              
+HidSpiCx     HidSpi KMDF Class Exte Kernel                              
+hidspi       Microsoft SPI HID Mini Kernel                              
+hidinterrupt Common Driver for HID  Kernel                              
+hidi2c       Microsoft I2C HID Mini Kernel                              
+HidBth       Microsoft Bluetooth HI Kernel                              
+HDAudBus     Microsoft UAA Bus Driv Kernel                              
+HdAudAddServ Microsoft 1.1 UAA Func Kernel                              
+GPIOClx0101  Microsoft GPIO Class E Kernel                              
+GenPass      Microsoft GenPass Driv Kernel                              
+genericusbfn Generic USB Function C Kernel                              
+gencounter   Microsoft Hyper-V Gene Kernel                              
+FxPPM        Power Framework Proces Kernel                              
+fvevol       BitLocker Drive Encryp Kernel                              
+FsDepends    File System Dependency File System                         
+FltMgr       FltMgr                 File System                         
+Filetrace    Filetrace              File System                         
+FileInfo     File Information FS Mi File System                         
+FileCrypt    FileCrypt              File System                         
+fastfat      FAT12/16/32 File Syste File System                         
+exfat        exFAT File System Driv File System                         
+ExecutionCon CPU Scheduler for High Kernel                              
+ErrDev       Microsoft Hardware Err Kernel                              
+EhStorTcgDrv Microsoft driver for s Kernel                              
+EhStorClass  Enhanced Storage Filte Kernel                              
+DXGKrnl      LDDM Graphics Subsyste Kernel                              
+drmkaud      Microsoft Trusted Audi Kernel                              
+dmvsc        dmvsc                  Kernel                              
+disk         Disk Driver            Kernel                              
+Dfsc         DFS Namespace Client D File System                         
+dam          Desktop Activity Moder Kernel                              
+condrv       Console Driver         Kernel                              
+CompositeBus Composite Bus Enumerat Kernel                              
+cnghwassist  CNG Hardware Assist al Kernel                              
+CNG          CNG                    Kernel                              
+CmBatt       Microsoft ACPI Control Kernel                              
+CLFS         Common Log (CLFS)      Kernel                              
+CldFlt       Windows Cloud Files Fi File System                         
+CimFS        CimFS                  File System                         
+cdrom        CD-ROM Driver          Kernel                              
+cdfs         CD/DVD File System Rea File System                         
+CAD          Charge Arbitration Dri Kernel                              
+buttonconver Service for Portable D Kernel                              
+BTHUSB       Bluetooth Radio USB Dr Kernel                              
+BTHPORT      Bluetooth Port Driver  Kernel                              
+BTHMODEM     Bluetooth Modem Commun Kernel                              
+BthMini      Bluetooth Radio Driver Kernel                              
+BthLEEnum    Bluetooth Low Energy D Kernel                              
+BthHFEnum    Microsoft Bluetooth Ha Kernel                              
+BthEnum      Bluetooth Enumerator S Kernel                              
+BthA2dp      Microsoft Bluetooth A2 Kernel                              
+bowser       Browser                File System                         
+bindflt      Windows Bind Filter Dr File System                         
+bfs          Brokering File System  File System                         
+Beep         Beep                   Kernel                              
+BasicRender  BasicRender            Kernel                              
+BasicDisplay BasicDisplay           Kernel                              
+bam          Background Activity Mo Kernel                              
+atapi        IDE Channel            Kernel                              
+AsyncMac     RAS Asynchronous Media Kernel                              
+applockerflt Smartlocker Filter Dri Kernel                              
+AppID        AppID Driver           Kernel                              
+ahcache      Application Compatibil Kernel                              
+afunix       afunix                 Kernel                              
+AFD          Ancillary Function Dri Kernel                              
+Acx01000     Acx01000               Kernel                              
+acpitime     ACPI Wake Alarm Driver Kernel                              
+AcpiPmi      ACPI Power Meter Drive Kernel                              
+acpipagr     ACPI Processor Aggrega Kernel                              
+acpiex       Microsoft ACPIEx Drive Kernel                              
+AcpiDev      ACPI Devices driver    Kernel                              
+ACPI         Microsoft ACPI Driver  Kernel                              
+1394ohci     1394 OHCI Compliant Ho Kernel                              
+============ ====================== ============= ======================
+

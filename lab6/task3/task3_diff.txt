@@ -1,0 +1,10 @@
+Comparing files C:\LAB6\TASK3\task3_1.txt and C:\LAB6\TASK3\TASK3_2.TXT
+***** C:\LAB6\TASK3\task3_1.txt
+   Power
+   Print Spooler
+   Program Compatibility Assistant Service
+***** C:\LAB6\TASK3\TASK3_2.TXT
+   Power
+   Program Compatibility Assistant Service
+*****
+
